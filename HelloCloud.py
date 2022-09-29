@@ -14,7 +14,7 @@ def home():
              'https://www.google.com/',
              'https://www.python.org/',
              'https://www.kmutnb.ac.th/',]
-    return render_template('example2.html', links=links)
+    return render_template('example.html', links=links)
 
 
 if __name__ == '__main__':

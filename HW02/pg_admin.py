@@ -3,7 +3,7 @@ try:
     connection = psycopg2.connect(user="webadmin",
                                 password="TMQkmy54914",
                                 host="node36956-piyawan.proen.app.ruk-com.cloud",
-                                port="11259",
+                                port="5432",
                                 database="postgres")
 
 

@@ -6,7 +6,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 Base = declarative_base()
-engine = create_engine('postgresql://webadmin:TMQkmy54914@node36956-piyawan.proen.app.ruk-com.cloud:11259/rukcloud')
+engine = create_engine('postgresql://webadmin:TMQkmy54914@node36956-piyawan.proen.app.ruk-com.cloud:5432/rukcloud')
 #engine = create_engine('sqlite:///practice.sqlite3')
 Session = sessionmaker(bind=engine)
 session = Session()

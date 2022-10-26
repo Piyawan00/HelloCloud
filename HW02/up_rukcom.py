@@ -1,6 +1,6 @@
 from flask import Flask,render_template
 from flask_sqlalchemy import SQLAlchemy
-from up_rukcom import Students,Teachers,Registrations,Subjects,session
+from data_table import Students,Teachers,Registrations,Subjects,session
 
 app = Flask (__name__)
 

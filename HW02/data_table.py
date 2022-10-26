@@ -77,4 +77,4 @@ for x in list:
 session.commit()
 
 session.commit()
-print(session.query(Students.student_id,Students.sf_name,Students.sl_name,Registrations.subject_id,Subjects.subject_name,Registrations.grade,Teachers.teacher_id,Teachers.tf_name,Teachers.tl_name).join(Registrations,Students.student_id == Registrations.student_id).join(Subjects,Registrations.subject_id == Subjects.subject_id).join(Teachers,Subjects.teacher_id == Teachers.teacher_id).all())
+#print(session.query(Students.student_id,Students.sf_name,Students.sl_name,Registrations.subject_id,Subjects.subject_name,Registrations.grade,Teachers.teacher_id,Teachers.tf_name,Teachers.tl_name).join(Registrations,Students.student_id == Registrations.student_id).join(Subjects,Registrations.subject_id == Subjects.subject_id).join(Teachers,Subjects.teacher_id == Teachers.teacher_id).all())

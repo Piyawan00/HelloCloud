@@ -4,7 +4,7 @@ from up_rukcom import Students,Teachers,Registrations,Subjects,session
 
 app = Flask (__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://webadmin:TMQkmy54914@node36956-piyawan.proen.app.ruk-com.cloud:11259/rukcloud'
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://webadmin:TMQkmy54914@node36956-piyawan.proen.app.ruk-com.cloud:5432/rukcloud'
 app.config['SQLALCHEMY_TRACK_MODIFICATION']= False
 
 db = SQLAlchemy(app)
